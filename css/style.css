@@ -1,0 +1,191 @@
+    .done {
+        text-decoration: line-through;
+    }
+    
+    .notDone {
+        text-decoration: none;
+    }
+    
+    .invalid {
+        border: red solid 1px;
+    }
+    
+    .valid {
+        border: gray solid 1px;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .mContent {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 20px;
+        border: gray solid 1px;
+        width: 35%;
+    }
+    
+    .mButton,
+    .mButton:active,
+    .mButton:visited .mButton:focus {
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+        border: gray solid 1px;
+        height: 35px;
+        background-color: #6d545d59;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 1em
+    }
+    
+    span {
+        float: right;
+        margin-bottom: 10px;
+    }
+    
+    form {
+        clear: both;
+    }
+    
+    input,
+    select {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 5px;
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        border: gray solid 1px;
+        height: 35px;
+        font-size: 1em
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #addButtons>button,
+    #homeButton>button {
+        margin-right: 10px;
+        padding: 5px;
+        width: 100px;
+        background-color: #6d545d59;
+        border: none;
+        box-shadow: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 1em
+    }
+    
+    #homeButton {
+        float: left;
+    }
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #sideNav {
+        width: 10%;
+        height: 100%;
+        min-height: 100%;
+        float: left;
+        margin-left: 1em;
+        margin-top: 0.5em;
+    }
+    
+    #content {
+        width: 100%;
+        min-height: 500px;
+        padding: 5px;
+    }
+    
+    html,
+    body {
+        min-height: 50%;
+        width: 70%;
+        margin: auto;
+    }
+    
+    body {
+        margin-top: 50px;
+        border: 1px solid gray;
+        background-color: #EAE1DF;
+    }
+    
+    h1 {
+        background-color: #6d545d59;
+        padding: 10px
+    }
+    
+    * {
+        font-family: 'Slabo 27px', serif;
+    }
+    
+    .errand {
+        font-style: italic;
+        margin-left: 50px;
+        margin-top: 5px;
+        clear: both;
+    }
+    
+    .errandTitle {
+        margin-top: 5px;
+        float: left;
+    }
+    
+    h2 {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    
+    .errandDate {
+        float: right;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        margin-right: 2em;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    
+    .high {
+        border: solid 1px rgb(177, 55, 55);
+    }
+    
+    .medium {
+        border: solid 1px rgb(196, 196, 56);
+    }
+    
+    .low {
+        border: solid 1px green;
+    }
+    
+    .sideNav {
+        display: block;
+        clear: both;
+    }
+    
+    #all {
+        display: flex;
+    }
+    
+    .rProject {
+        float: none;
+        margin-left: 20px;
+    }
