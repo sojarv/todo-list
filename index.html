@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <link href='../css/style.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='pInput' class='modal'>
+
+        <div class='mContent'>
+            <span>&#10005;</span>
+            <form id='projectInput' onsubmit="return false">
+                <input id='projectTitle' placeholder="Title of the project">
+                <button class='mButton' id='makeProject'>Done!</button>
+            </form>
+        </div>
+    </div>
+    <div id='eInput' class='modal'>
+        <div class='mContent'>
+            <span>&#10005;</span>
+            <form id='input' onsubmit="return false">
+
+                <input id='title' type="text" placeholder="Errand name">
+                <input id='description' type='textarea' placeholder="Something more?">
+
+                <input type='date' id='dueDate'>
+
+                <select id="priority" name="priority">
+                    <option value="" disabled selected>Select priority</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+                <select id='project'>
+                    
+                </select>
+                <button class='mButton' id='submit'>Done!</button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div id='all'>
+        <div id='sideNav'></div>
+
+        <div id='content'>
+
+        </div>
+    </div>
+
+</body>
+<script src='main.js'></script>
